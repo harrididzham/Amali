@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style> 
+    #bordering{ 
+        border: 5px solid rgb(0, 0, 0); 
+        padding: 10px; 
+        width: 30%; 
+        background-color:rgb(255, 0, 128); 
+    }
+
+    table{
+        text-align: left;       
+    }
+
+    td{
+        padding:10px;
+    }
+
+    input[type=submit] { 
+      background-color: #45ff73fd; 
+      color: rgb(0, 0, 0); 
+      padding: 12px 10px; 
+      border: none; 
+      border-radius: 4px; 
+      cursor: pointer; 
+    } 
+    
+    input[type=submit]:hover { 
+      background-color: #45ff73fd; 
+    } 
+
+    input[type=reset] { 
+      background-color: #eb0000fd; 
+      color: rgb(0, 0, 0); 
+      padding: 12px 10px; 
+      border: none; 
+      border-radius: 4px; 
+      cursor: pointer; 
+    } 
+
+    input[type=reset]:hover { 
+      background-color: #eb0000fd; 
+    }
+</style>    
+</head>
+<body style="background-color:rgb(235, 123, 157);">
+<center>
+    <form target="_blank">  
+    <div id="bordering" class="container">
+    <table style="background-color: rgb(245, 158, 191)">
+        <tr>
+            <th colspan="2" style="background-color: palevioletred;"><h2 style="text-align: left;">Sign Up</h2></th>
+        </tr>
+        
+        <tr>
+            <th>First Name</th>
+            <td><input type="name" id="nama" name="namaa" placeholder="Enter First Name" size="30" required></td>
+        </tr>
+
+        <tr>
+            <th>Last Name</th>
+            <td><input type="name" id="nama" name="namaa" placeholder="Enter Last Name" size="30" required></td>
+        </tr>
+
+        <tr>
+            <th><label for="dob">Date Of Birth</label></th>
+            <td><select name="dob" id="dob">
+            <option value="day" name="day1" id="DAY" selected disabled>Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="22">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            </select>
+            
+            <select name="dob" id="dob">
+            <option value="month" name="month1" id="MONTH" selected disabled>Month</option>
+            <option value="JAN">Jan</option>
+            <option value="Feb">Feb</option>
+            <option value="MARCH">March</option>
+            <option value="APRIL">April</option>
+            <option value="MEI">Mei</option>
+            <option value="JUN">Jun</option>
+            <option value="JULAI">Julai</option>
+            <option value="OGOS">Ogos</option>
+            <option value="SEPTEMBER">September</option>
+            <option value="oktober">Oktober</option>
+            <option value="NOV">November</option>
+            <option value="DIS">Disember</option>
+            </select>
+            
+            <select name="dob" id="dob">
+                <option value="year" name="year1" id="YEAR" selected disabled>Year</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                </select>
+            </td>    
+            </tr>
+    
+            <tr>
+                <th>Gender</th>
+                <td ><input type="radio" name="GENDER" value="MALE"    id="male1">
+                     <label for="male1">Male</label> 
+                     <input type="radio" name="GENDER" value="FEMALE" id="female1">
+                     <label for="female1">Female</label></td> 
+            </tr>
+    
+            <tr>
+                <th>Country</th>
+                <td><select name="country" id="Country">
+                    <option value="country" name="country1" id="COUNTRY" selected disabled>Country</option>
+                    <option value="Malaysia">MALAYSIA</option>
+                    <option value="Thailand">THAILAND</option>
+                    <option value="Singapura">SINGAPURA</option>
+                    <option value="Indonesia">INDONESIA</option>
+                    <option value="Brunei">BRUNEI</option>
+                    <option value="Laos">LAOS</option>
+                    <option value="Myammar">MYAMMAR</option>
+                    <option value="Vietnam">VIETNAM</option>
+                    <option value="Filipina">FILIPINA</option>
+                </td></select>
+            </tr>
+    
+            <tr>
+                <th><label for="email">E-mail</label><br></th>
+                <td><input type="email"  name="email" placeholder="Enter E-mail" size="30"><br></td>
+            </tr>
+            
+            <tr>
+                <th><label for="phone">Phone</label></th>
+                <td><input type="phone"  name="phone" placeholder="Enter Phone" size="30"><br></td>
+            </tr>
+    
+            <tr>
+                <th>Enter Password</th>
+                <td><input type="password" placeholder="Password" id="password" size="30" required></td>
+            </tr>
+            
+            <tr>
+                <th>Confirm Password</th>
+                <td> <input type="password" placeholder="Confirm Password" id="confirm password" size="30" required></td>
+            </tr>
+    
+            <tr>
+                <th></th>
+                <td  colspan="2"><input type="checkbox" name="accept" value="ACCEPT" id="Accept" required>
+                <label for="Accept">I Agree to the Terms of use</label></td>
+            </tr>
+                    
+            <tr style="background-color: palevioletred;">
+                <th style="text-align:right;" colspan="2">
+                <input type="submit" value="Submit" onclick="alert('TERIMA KASIH')">     
+                <input type="reset"  value="Cancel"></th>     
+            </tr>
+            
+        </table>
+        </div>
+        </form>
+    </center>
+    </body>
+    </html>
